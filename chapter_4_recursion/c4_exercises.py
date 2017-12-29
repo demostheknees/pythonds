@@ -104,3 +104,19 @@ def call_cannibals():
     """
 
     pass
+
+def call_hanoi_turtle():
+    """12. Modify the Tower of Hanoi program using turtle graphics to animate the movement of the disks.
+    Hint: You can make multiple turtles and have them shaped like rectangles."""
+
+    from chapter_4_recursion.exercises import hanoi_turtle
+
+    hanoi_turtle.main()
+
+def call_pascal():
+    """
+    13. Pascal’s triangle is a number triangle with numbers arranged in staggered rows such that
+
+    a_nr = n! / r!(n-r)!
+
+    """
